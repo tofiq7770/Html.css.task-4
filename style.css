@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: auto;
+    font-family: "Lato", sans-serif;
+}
+header{
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+.menu{
+    background-color: black;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    height: 50px;
+    word-spacing: 10px;
+}
+.menu li{
+    display:inline-block;
+    font-weight:lighter;
+    margin: 12px 20px;
+    block-size: 2px;
+}
+.button:hover{
+    background-color: lightgray;
+    color: black;
+}
+.button{
+    color: white;
+    text-decoration: none;
+}
+.home{
+    display: block;
+    padding-bottom: 16px;
+    padding-left: 22px;
+    padding-top: 16px;
+    padding-right: 23px;
+    margin-left: -24px;
+    margin-right: -30px;
+    margin-top: -16px;
+}
+.band{
+    display: block;
+    padding-bottom: 16px;
+    padding-left: 22px;
+    padding-top: 16px;
+    padding-right: 23px;
+    margin-left: -24px;
+    margin-right: -30px;
+    margin-top: -16px;
+}
+.tour{
+    display: block;
+    padding-bottom: 16px;
+    padding-left: 22px;
+    padding-top: 16px;
+    padding-right: 23px;
+    margin-left: -24px;
+    margin-right: -30px;
+    margin-top: -16px;
+}
+.contacts{
+    display: block;
+    padding-bottom: 16px;
+    padding-left: 22px;
+    padding-top: 16px;
+    padding-right: 23px;
+    margin-left: -24px;
+    margin-right: -30px;
+    margin-top: -16px;
+}
+.more{
+    display: block;
+    padding-bottom: 16px;
+    padding-left: 22px;
+    padding-top: 16px;
+    padding-right: 23px;
+    margin-left: -24px;
+    margin-right: -30px;
+    margin-top: -16px;
+}
+.search{
+    float: right;
+    display: block;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    margin-right: -5px;
+    margin-top: -5px;
+}
+.search:hover{
+    background-color: red;
+}
+.insearch{
+    padding-right: 14px;
+    margin-top: 14px;
+    margin-bottom: -14px;
+}
+.losang img{
+    display: block;
+    width: 100%;
+}
+.losangtxt{
+    position: absolute;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,0%);
+    text-align:center;
+    bottom: 0;
+}
+.aboutbands{
+    height: auto;
+}
+.theband{
+    text-align: center;
+}
+.theband h2{
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-top: 90px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.theband i{
+    color: gray;
+}
+.theband p{
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: justify;
+    word-spacing: 5px;
+}
+.bandimg{
+    float:left;
+  width: 43%;
+  margin-left: 500px;
+  margin-right: -950px;
+  margin-top: 70px;
+}
+.bandimgs::after {
+        content: "";
+        clear: both;
+        display: table;
+}
+.bandimg img{
+    width: 23%;
+}
+.bandimg p{
+    margin-left: 50px;
+}
+.tours{
+    width: auto;
+    height: 860px;
+    border: 1px solid black;
+    background-color: black;
+    text-align: center;
+}
+.tours h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 28px;
+    margin-top: 90px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.tours i{
+    color: gray;
+}
+.months ul{
+    display: block;
+    list-style: none;
+    color: gray;
+    background-color: white;
+    border: 1px solid gray;
+    box-sizing: inherit;
+    padding: 0;
+    margin: 50px;
+}
+.months li{
+    border-bottom: 1px solid gray;
+    padding: 11px 16px;
+    text-align: left;
+}
+.months{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.months .soldout{
+    color: white;
+    background-color: #f44336;
+    margin-left: 16px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.months .three{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+    margin-left: 650px;
+    border-radius: 50%;
+}
+.cities{
+    display:block;
+}
+.cities img{
+    width: 264px;
+    vertical-align: middle;
+    border-style: none;
+    margin-bottom: 15px;
+}
+.newyork{
+    padding: 0;
+    margin-bottom: 16px;
+    width: min-content;
+    display:inline-block;
+    background-color: white;
+}
+.paris{
+    padding: 0;
+    margin-bottom: 16px;
+    width: min-content;
+    display:inline-block;
+    background-color: white;
+}
+.sanfran{
+    padding: 0;
+    margin-bottom: 16px;
+    width: min-content;
+    display:inline-block;
+    background-color: white;
+}
+.cities a{
+    text-decoration: none;
+    color: white;
+}
+.newyork b{
+   padding-right: 160px;
+}
+.paris b{
+    padding-right: 195px;
+}
+.sanfran b{
+    padding-right: 130px;
+}
+.time{
+    color: gray;
+    padding-right: 115px;
+}
+.opinion{
+    padding-right: 38px;
+    text-indent: 25px;
+}
+.opinions{
+    padding-right: 30px;
+    text-indent: 25px;
+}
+.tickets{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-right: 100px;
+    vertical-align: super;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+}
+.tickets:hover{
+    background-color: lightgray;
+    color: black;
+}
+.contact{
+    width: auto;
+    height: 400px;
+    text-align: center;
+}
+.contact h2{
+text-transform: uppercase;
+    color: black;
+    font-size: 28px;
+    margin-top: 90px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.contact i{
+    color: gray;
+}
+.information{
+    float: left;
+    margin-left: 25%;
+}
+.form{
+    float: right;
+    margin-right: 22%;
+}
+.userinformation{
+    margin-top: 50px;
+}
+.name{
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+.email{
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+.message{
+    border: 1px solid #ccc;
+    padding: 12px 211px 12px 12px;
+    text-align: left;
+}
+.send{
+    float: right;
+    border: none;
+    display: block;
+    padding: 8px 16px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-align: center;
+     cursor: pointer;
+    color: white;
+    background-color: black;
+}
+.send:hover{
+    background-color:lightgray;
+    color: black;
+}
+.location{
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: grayscale(50%);
+}
+.footer{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.footer p{
+    color: gray;
+    font-size: smaller;
+}
+.footer button{
+    color: gray;
+    background-color: white;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
